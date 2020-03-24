@@ -1,4 +1,4 @@
 ﻿CREATE TABLE [dbo].[TestDemo] (
-    [name] INT NOT NULL
+    [name] DECIMAL NOT NULL
 );
 
