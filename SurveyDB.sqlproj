@@ -22,7 +22,7 @@
     <SqlServerVerification>False</SqlServerVerification>
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
     <TargetDatabaseSet>True</TargetDatabaseSet>
-    <DefaultCollation>SQL_Latin1_General_CP1_CI_AS</DefaultCollation>
+    <DefaultCollation>Latin1_General_CI_AS</DefaultCollation>
     <DefaultFilegroup>PRIMARY</DefaultFilegroup>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -62,6 +62,9 @@
     <Folder Include="dbo\Tables\" />
   </ItemGroup>
   <ItemGroup>
+    <RefactorLog Include="SurveyDB.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
     <Build Include="dbo\Tables\Answer.sql" />
     <Build Include="dbo\Tables\Application.sql" />
     <Build Include="dbo\Tables\Question.sql" />
@@ -69,8 +72,5 @@
     <Build Include="dbo\Tables\Survey.sql" />
     <Build Include="dbo\Tables\UserAnswer.sql" />
     <Build Include="dbo\Tables\TestDemo.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <RefactorLog Include="SurveyDB.refactorlog" />
   </ItemGroup>
 </Project>

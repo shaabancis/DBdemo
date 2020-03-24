@@ -2,4 +2,3 @@
     [name] NVARCHAR (50) NOT NULL
 );
 
-

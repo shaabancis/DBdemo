@@ -6,7 +6,3 @@
     CONSTRAINT [FK_Answer_To_Question] FOREIGN KEY ([QuestionId]) REFERENCES [dbo].[Question] ([Id]) ON DELETE CASCADE
 );
 
-
-
-
-
