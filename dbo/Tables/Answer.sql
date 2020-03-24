@@ -2,7 +2,7 @@
     [Id]          UNIQUEIDENTIFIER NOT NULL,
     [Description] NVARCHAR (100)   NOT NULL,
     [QuestionId]  UNIQUEIDENTIFIER NOT NULL,
-    [Name] NVARCHAR(50) NULL, 
+    [Name] NVARCHAR(250) NULL, 
     PRIMARY KEY CLUSTERED ([Id] ASC),
     CONSTRAINT [FK_Answer_To_Question] FOREIGN KEY ([QuestionId]) REFERENCES [dbo].[Question] ([Id]) ON DELETE CASCADE
 );
