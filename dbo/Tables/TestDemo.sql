@@ -1,4 +1,5 @@
-﻿CREATE TABLE [dbo].[TestDemo]
-(
-	[name] INT NOT NULL 
-)
+﻿CREATE TABLE [dbo].[TestDemo] (
+    [name] NVARCHAR (50) NOT NULL
+);
+
+
