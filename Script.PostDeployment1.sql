@@ -10,4 +10,4 @@ Post-Deployment Script Template
 --------------------------------------------------------------------------------------
 */
 
-insert into TestDemo values('test');
+insert into TestDemo values(1);
