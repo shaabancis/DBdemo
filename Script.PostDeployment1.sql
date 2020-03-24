@@ -9,4 +9,5 @@ Post-Deployment Script Template
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
-insert into TestDemo values("test");
+
+insert into TestDemo values('test');
